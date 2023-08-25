@@ -1,0 +1,3 @@
+ADT Cadena
+
+Operaciones: agregar una cadena, eliminar una cadena, concatenar cadenas, comparar cadenas, dividir cadena en subcadenas, determinar el tamaño de la cadena, acceder a cada caracter de la cadena, acceder a un rango de la cadena o acceder a una subcadena.

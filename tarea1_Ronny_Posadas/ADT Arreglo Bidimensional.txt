@@ -1,0 +1,27 @@
+// ADT para arreglos bidimencionales de enteros haciendo uso de una interface
+public interface ADTArray {
+
+    // Operaciones
+    // Crea el arreglo
+    void crearArreglo(int fila, int columna);
+
+    // Guarda o asigna el entero en una fila y columna
+    boolean guardarEntero(int fila, int columna, int entero);
+
+    // Obtener el entero
+    int obtenerEntero();
+
+    // Elimina un entero del arreglo
+    boolean eliminarEntero();
+
+    // Devuelve el tamaño del arreglo
+    int sizeArreglo();
+
+}
+
+
+R./ Si el arreglo tiene 1 millón de elementos y se está ocupando menos del 10% 
+    del espacio, una manera de optimizar el uso de almacenamiento sería crear un arreglo
+    con la mitad de elementos o menos y copiar todos los registros no nulos en ese nuevo arreglo y luego deshacernos del arreglo viejo,
+    si la cantidad de elementos supera al tamaño del arreglo se puede crear un nuevo arreglo más grande y copiar todos los elementos
+    al nuevo arreglo. La desventaja es que al optimizar el espacio, probablemente aumenten los costos de tiempo.
